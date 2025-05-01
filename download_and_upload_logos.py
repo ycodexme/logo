@@ -7,6 +7,7 @@ import argparse
 import json
 import time
 import subprocess
+import re
 from pathlib import Path
 from urllib.parse import urlparse
 
@@ -19,6 +20,13 @@ GITHUB_RAW_URL = "https://raw.githubusercontent.com/ycodexme/logo/main/logos/"
 def ensure_dir_exists(dir_path):
     """Ensure the specified directory exists"""
     Path(dir_path).mkdir(parents=True, exist_ok=True)
+
+def clean_filename(name):
+    """Convertit un nom de chaîne en nom de fichier valide"""
+    # Remplacer les caractères spéciaux et espaces par des tirets
+    clean_name = re.sub(r'[^\w\s-]', '', name)
+    clean_name = re.sub(r'[\s]+', '-', clean_name)
+    return clean_name.lower()
 
 def download_logo(url, save_path):
     """Download logo from insecure URL and save it locally"""
@@ -86,7 +94,7 @@ def commit_and_push_changes(message):
         print(f"Unexpected error: {e}")
         return False
 
-def process_urls_from_file(input_file, output_file=None):
+def process_urls_from_file(input_file, output_file=None, limit=None):
     """Process URLs from an input file and save results to output file"""
     # Create directory for logos if it doesn't exist
     ensure_dir_exists(LOGOS_DIR)
@@ -94,19 +102,38 @@ def process_urls_from_file(input_file, output_file=None):
     results = {}
     urls_processed = 0
     
-    with open(input_file, 'r') as f:
-        urls = [line.strip() for line in f if line.strip()]
+    # Charger le fichier JSON contenant les URLs et les noms des chaînes
+    with open(input_file, 'r', encoding='utf-8') as f:
+        urls_data = json.load(f)
     
-    total_urls = len(urls)
+    # Limiter le nombre d'URLs à traiter si demandé
+    if limit and limit > 0:
+        urls_data = urls_data[:limit]
+    
+    total_urls = len(urls_data)
     print(f"Found {total_urls} URLs to process")
     
-    for i, url in enumerate(urls):
-        print(f"Processing {i+1}/{total_urls}: {url}")
+    # Créer un dictionnaire pour détecter les noms en double
+    used_names = {}
+    
+    for i, item in enumerate(urls_data):
+        url = item['url']
+        name = item['name']
+        print(f"Processing {i+1}/{total_urls}: {name} ({url})")
         
-        # Generate a unique filename based on URL hash
-        url_hash = hashlib.md5(url.encode()).hexdigest()
+        # Nettoyer le nom pour l'utiliser comme nom de fichier
+        clean_name = clean_filename(name)
         
-        # Try to get file info
+        # Ajouter un suffixe numérique si le nom est déjà utilisé
+        base_name = clean_name
+        counter = 1
+        while clean_name in used_names:
+            clean_name = f"{base_name}-{counter}"
+            counter += 1
+        
+        used_names[clean_name] = True
+        
+        # Déterminer l'extension du fichier
         try:
             head_response = requests.head(url, timeout=5)
             content_type = head_response.headers.get('Content-Type', '')
@@ -115,7 +142,7 @@ def process_urls_from_file(input_file, output_file=None):
             # If head request fails, guess extension from URL
             file_ext = get_file_extension(url)
         
-        filename = f"{url_hash}{file_ext}"
+        filename = f"{clean_name}{file_ext}"
         save_path = os.path.join(LOGOS_DIR, filename)
         
         # Download the logo
@@ -138,16 +165,17 @@ def process_urls_from_file(input_file, output_file=None):
     
     # Save results to output file if specified
     if output_file:
-        with open(output_file, 'w') as f:
-            json.dump(results, f, indent=2)
+        with open(output_file, 'w', encoding='utf-8') as f:
+            json.dump(results, f, indent=2, ensure_ascii=False)
     
     print(f"Processed {urls_processed} URLs successfully")
     return results
 
 def main():
     parser = argparse.ArgumentParser(description='Download logos from insecure URLs and upload to GitHub')
-    parser.add_argument('input_file', help='File containing list of URLs to process (one per line)')
+    parser.add_argument('input_file', help='JSON file containing logo URLs and channel names')
     parser.add_argument('--output', '-o', help='Output file to save URL mapping (original -> secure)')
+    parser.add_argument('--limit', '-l', type=int, help='Limit the number of URLs to process')
     
     args = parser.parse_args()
     
@@ -155,7 +183,7 @@ def main():
         print(f"Error: Input file {args.input_file} does not exist")
         sys.exit(1)
     
-    process_urls_from_file(args.input_file, args.output)
+    process_urls_from_file(args.input_file, args.output, args.limit)
 
 if __name__ == "__main__":
     main() 

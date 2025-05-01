@@ -34,9 +34,10 @@ check_dependencies() {
 # Paramètres
 CHANNELS_FILE=${1:-"embed-channels.json"}
 OUTPUT_FILE=${2:-"embed-channels-secure.json"}
-LOGOS_URLS="logos_urls.txt"
+LOGOS_DATA="logos_data.json"
 MAPPING_FILE="logo_mapping.json"
 LOGOS_DIR="logos"
+LIMIT=${3:-0}  # Nombre d'URLs à traiter (0 = toutes)
 
 # Vérifier que le fichier source existe
 if [ ! -f "$CHANNELS_FILE" ]; then
@@ -53,22 +54,29 @@ mkdir -p "$LOGOS_DIR"
 echo "=== Démarrage du processus de sécurisation des logos ==="
 echo "Fichier source: $CHANNELS_FILE"
 echo "Fichier de sortie: $OUTPUT_FILE"
+if [ "$LIMIT" -gt 0 ]; then
+    echo "Limite: $LIMIT logos"
+fi
 echo
 
 # Étape 1: Extraire les URLs des logos HTTP
 echo "1. Extraction des URLs des logos non sécurisés..."
-python3 extract_logos.py "$CHANNELS_FILE" "$LOGOS_URLS"
+python3 extract_logos.py "$CHANNELS_FILE" "$LOGOS_DATA"
 echo
 
 # Vérifier si des URLs ont été trouvées
-if [ ! -s "$LOGOS_URLS" ]; then
+if [ ! -s "$LOGOS_DATA" ]; then
     echo "Aucune URL HTTP trouvée. Rien à faire."
     exit 0
 fi
 
 # Étape 2: Télécharger les logos et créer les URLs sécurisées
 echo "2. Téléchargement des logos et création des URLs sécurisées..."
-python3 download_and_upload_logos.py "$LOGOS_URLS" --output "$MAPPING_FILE"
+if [ "$LIMIT" -gt 0 ]; then
+    python3 download_and_upload_logos.py "$LOGOS_DATA" --output "$MAPPING_FILE" --limit "$LIMIT"
+else
+    python3 download_and_upload_logos.py "$LOGOS_DATA" --output "$MAPPING_FILE"
+fi
 echo
 
 # Vérifier si le téléchargement a réussi
