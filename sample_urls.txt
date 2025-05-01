@@ -1,0 +1,5 @@
+http://example.com/logo1.png
+http://insecure-site.com/images/logo.jpg
+http://sample-domain.org/assets/brand.svg
+http://another-domain.net/media/icon.gif
+http://test-company.com/public/images/logo-large.png 
