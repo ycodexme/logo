@@ -1,0 +1,542 @@
+[
+  {
+    "name": "Udinese vs Monza",
+    "embed_url": "https://frenchtv.fun/embed/it-dazn-channel-sd",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/udinese.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/monza.png"
+  },
+  {
+    "name": "Udinese vs Monza",
+    "embed_url": "https://frenchtv.fun/embed/ar",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/udinese.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/monza.png"
+  },
+  {
+    "name": "Udinese vs Monza",
+    "embed_url": "https://frenchtv.fun/embed/us-sports",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/udinese.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/monza.png"
+  },
+  {
+    "name": "Udinese vs Monza",
+    "embed_url": "https://frenchtv.fun/embed/de-dazn-bar-1-hd",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/udinese.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/monza.png"
+  },
+  {
+    "name": "Como vs Napoli",
+    "embed_url": "https://frenchtv.fun/embed/us-cbs-sports-network-hd",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/como.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/napoli.png"
+  },
+  {
+    "name": "Sassuolo vs Sampdoria",
+    "embed_url": "https://frenchtv.fun/embed/sp-fox-soccer-plus-hd",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/sassuolo.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/sampdoria.png"
+  },
+  {
+    "name": "Newcastle vs Chelsea",
+    "embed_url": "https://frenchtv.fun/embed/uk-tnt-sports-1-uhd",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/newcastle.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/chelsea.png"
+  },
+  {
+    "name": "Newcastle vs Chelsea",
+    "embed_url": "https://frenchtv.fun/embed/us-sports",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/newcastle.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/chelsea.png"
+  },
+  {
+    "name": "Newcastle vs Chelsea",
+    "embed_url": "https://frenchtv.fun/embed/uk-hub-premier-1",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/newcastle.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/chelsea.png"
+  },
+  {
+    "name": "Newcastle vs Chelsea",
+    "embed_url": "https://frenchtv.fun/embed/us-nbc-sports-hd",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/newcastle.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/chelsea.png"
+  },
+  {
+    "name": "Simulcast",
+    "embed_url": "https://frenchtv.fun/embed/de-sky-bundesliga-1-fhd"
+  },
+  {
+    "name": "Hannover 96 vs Greuther Fürth",
+    "embed_url": "https://frenchtv.fun/embed/de-sky-bundesliga-3-hd",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/hannover-96.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/greuther-fürth.png"
+  },
+  {
+    "name": "Hannover 96 vs Greuther Fürth",
+    "embed_url": "https://frenchtv.fun/embed/nova-sport",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/hannover-96.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/greuther-fürth.png"
+  },
+  {
+    "name": "Hannover 96 vs Greuther Fürth",
+    "embed_url": "https://frenchtv.fun/embed/",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/hannover-96.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/greuther-fürth.png"
+  },
+  {
+    "name": "Kaiserslautern vs Darmstadt 98",
+    "embed_url": "https://frenchtv.fun/embed/de-sky-bundesliga-2-uhd",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/kaiserslautern.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/darmstadt-98.png"
+  },
+  {
+    "name": "Kaiserslautern vs Darmstadt 98",
+    "embed_url": "https://frenchtv.fun/embed/sport-tv-3",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/kaiserslautern.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/darmstadt-98.png"
+  },
+  {
+    "name": "Kaiserslautern vs Darmstadt 98",
+    "embed_url": "https://frenchtv.fun/embed/pt-eleven-sports-4-uhd",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/kaiserslautern.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/darmstadt-98.png"
+  },
+  {
+    "name": "Kaiserslautern vs Darmstadt 98",
+    "embed_url": "https://frenchtv.fun/embed/sport-tv-3",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/kaiserslautern.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/darmstadt-98.png"
+  },
+  {
+    "name": "Jahn Regensburg vs Karlsruher SC",
+    "embed_url": "https://frenchtv.fun/embed/de-sky-bundesliga-4-hd",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/jahn-regensburg.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/karlsruher-sc.png"
+  },
+  {
+    "name": "Jahn Regensburg vs Karlsruher SC",
+    "embed_url": "https://frenchtv.fun/embed/",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/jahn-regensburg.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/karlsruher-sc.png"
+  },
+  {
+    "name": "Leganés vs Espanyol",
+    "embed_url": "https://frenchtv.fun/embed/ar-dazn-event-1",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/leganés.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/espanyol.png"
+  },
+  {
+    "name": "Leganés vs Espanyol",
+    "embed_url": "https://frenchtv.fun/embed/uk-sports-fhd",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/leganés.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/espanyol.png"
+  },
+  {
+    "name": "Leganés vs Espanyol",
+    "embed_url": "https://frenchtv.fun/embed/sport-tv-1",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/leganés.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/espanyol.png"
+  },
+  {
+    "name": "Leganés vs Espanyol",
+    "embed_url": "https://frenchtv.fun/embed/sport-tv-1",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/leganés.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/espanyol.png"
+  },
+  {
+    "name": "Simulcast",
+    "embed_url": "https://frenchtv.fun/embed/"
+  },
+  {
+    "name": "RB Leipzig vs Eintracht Frankfurt",
+    "embed_url": "https://frenchtv.fun/embed/",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/rb-leipzig.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/eintracht-frankfurt.png"
+  },
+  {
+    "name": "Wolfsburg vs Bayer Leverkusen",
+    "embed_url": "https://frenchtv.fun/embed/",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/wolfsburg.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/bayer-leverkusen.png"
+  },
+  {
+    "name": "Wolfsburg vs Bayer Leverkusen",
+    "embed_url": "https://frenchtv.fun/embed/af-sport",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/wolfsburg.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/bayer-leverkusen.png"
+  },
+  {
+    "name": "Hoffenheim vs Carl Zeiss Jena",
+    "embed_url": "https://frenchtv.fun/embed/",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/hoffenheim.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/carl-zeiss-jena.png"
+  },
+  {
+    "name": "Freiburg vs Werder Bremen",
+    "embed_url": "https://frenchtv.fun/embed/",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/freiburg.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/werder-bremen.png"
+  },
+  {
+    "name": "Köln vs Turbine Potsdam",
+    "embed_url": "https://frenchtv.fun/embed/",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/köln.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/turbine-potsdam.png"
+  },
+  {
+    "name": "Bayern vs SGS Essen",
+    "embed_url": "https://frenchtv.fun/embed/",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/bayern.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/sgs-essen.png"
+  },
+  {
+    "name": "Bayern vs SGS Essen",
+    "embed_url": "https://frenchtv.fun/embed/de-dazn-bar-2-hd",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/bayern.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/sgs-essen.png"
+  },
+  {
+    "name": "Wolfsberger AC vs Blau-Weiß Linz",
+    "embed_url": "https://frenchtv.fun/embed/de-sky-sports-f1-hd",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/wolfsberger-ac.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/blau-weiß-linz.png"
+  },
+  {
+    "name": "Wolfsberger AC vs Blau-Weiß Linz",
+    "embed_url": "https://frenchtv.fun/embed/",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/wolfsberger-ac.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/blau-weiß-linz.png"
+  },
+  {
+    "name": "Verona vs Lecce",
+    "embed_url": "https://frenchtv.fun/embed/it-dazn-channel-sd",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/verona.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/lecce.png"
+  },
+  {
+    "name": "Verona vs Lecce",
+    "embed_url": "https://frenchtv.fun/embed/ar",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/verona.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/lecce.png"
+  },
+  {
+    "name": "Verona vs Lecce",
+    "embed_url": "https://frenchtv.fun/embed/us-sports",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/verona.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/lecce.png"
+  },
+  {
+    "name": "Verona vs Lecce",
+    "embed_url": "https://frenchtv.fun/embed/pl-eleven-sports-3-hd",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/verona.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/lecce.png"
+  },
+  {
+    "name": "Simulcast",
+    "embed_url": "https://frenchtv.fun/embed/uk-hub-premier-1"
+  },
+  {
+    "name": "Manchester United vs West Ham",
+    "embed_url": "https://frenchtv.fun/embed/uk-hub-premier-1",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/manchester-united.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/west-ham.png"
+  },
+  {
+    "name": "Manchester United vs West Ham",
+    "embed_url": "https://frenchtv.fun/embed/de-sky-sport-6-hd",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/manchester-united.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/west-ham.png"
+  },
+  {
+    "name": "Manchester United vs West Ham",
+    "embed_url": "https://frenchtv.fun/embed/es-dazn-bar-2",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/manchester-united.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/west-ham.png"
+  },
+  {
+    "name": "Manchester United vs West Ham",
+    "embed_url": "https://frenchtv.fun/embed/pt-eleven-sports-2-uhd",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/manchester-united.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/west-ham.png"
+  },
+  {
+    "name": "Nottingham Forest vs Leicester City",
+    "embed_url": "https://frenchtv.fun/embed/uk-hub-premier-1",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/nottingham-forest.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/leicester-city.png"
+  },
+  {
+    "name": "Nottingham Forest vs Leicester City",
+    "embed_url": "https://frenchtv.fun/embed/de-sky-sport-8-hd",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/nottingham-forest.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/leicester-city.png"
+  },
+  {
+    "name": "Nottingham Forest vs Leicester City",
+    "embed_url": "https://frenchtv.fun/embed/es-dazn-3-4k",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/nottingham-forest.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/leicester-city.png"
+  },
+  {
+    "name": "Nottingham Forest vs Leicester City",
+    "embed_url": "https://frenchtv.fun/embed/it-sky-sport-hd",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/nottingham-forest.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/leicester-city.png"
+  },
+  {
+    "name": "Tottenham vs Crystal Palace",
+    "embed_url": "https://frenchtv.fun/embed/us-sports",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/tottenham.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/crystal-palace.png"
+  },
+  {
+    "name": "Tottenham vs Crystal Palace",
+    "embed_url": "https://frenchtv.fun/embed/uk-hub-premier-1",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/tottenham.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/crystal-palace.png"
+  },
+  {
+    "name": "Tottenham vs Crystal Palace",
+    "embed_url": "https://frenchtv.fun/embed/uk-sky-sports-main-event-fhd",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/tottenham.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/crystal-palace.png"
+  },
+  {
+    "name": "Tottenham vs Crystal Palace",
+    "embed_url": "https://frenchtv.fun/embed/uk-sky-sports-premier-league",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/tottenham.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/crystal-palace.png"
+  },
+  {
+    "name": "Leverkusen vs Borussia Dortmund",
+    "embed_url": "https://frenchtv.fun/embed/de-dazn-bar-1-hd",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/leverkusen.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/borussia-dortmund.png"
+  },
+  {
+    "name": "Leverkusen vs Borussia Dortmund",
+    "embed_url": "https://frenchtv.fun/embed/sky-sport-1",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/leverkusen.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/borussia-dortmund.png"
+  },
+  {
+    "name": "Leverkusen vs Borussia Dortmund",
+    "embed_url": "https://frenchtv.fun/embed/pt-eleven-sports-4-uhd",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/leverkusen.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/borussia-dortmund.png"
+  },
+  {
+    "name": "Leverkusen vs Borussia Dortmund",
+    "embed_url": "https://frenchtv.fun/embed/pl-eleven-sports-2-hd",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/leverkusen.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/borussia-dortmund.png"
+  },
+  {
+    "name": "Barcelona vs Real Madrid",
+    "embed_url": "https://frenchtv.fun/embed/",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/barcelona.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/real-madrid.png"
+  },
+  {
+    "name": "Barcelona vs Real Madrid",
+    "embed_url": "https://frenchtv.fun/embed/sport-tv-2",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/barcelona.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/real-madrid.png"
+  },
+  {
+    "name": "Barcelona vs Real Madrid",
+    "embed_url": "https://frenchtv.fun/embed/uk-sports-fhd",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/barcelona.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/real-madrid.png"
+  },
+  {
+    "name": "Barcelona vs Real Madrid",
+    "embed_url": "https://frenchtv.fun/embed/sport-tv-1",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/barcelona.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/real-madrid.png"
+  },
+  {
+    "name": "Austria Wien vs Rapid Wien",
+    "embed_url": "https://frenchtv.fun/embed/de-sky-sports-f1-hd",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/austria-wien.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/rapid-wien.png"
+  },
+  {
+    "name": "Austria Wien vs Rapid Wien",
+    "embed_url": "https://frenchtv.fun/embed/sport-klub-uhd",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/austria-wien.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/rapid-wien.png"
+  },
+  {
+    "name": "Austria Wien vs Rapid Wien",
+    "embed_url": "https://frenchtv.fun/embed/",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/austria-wien.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/rapid-wien.png"
+  },
+  {
+    "name": "Liverpool vs Arsenal",
+    "embed_url": "https://frenchtv.fun/embed/us-nbc-golf-hd",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/liverpool.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/arsenal.png"
+  },
+  {
+    "name": "Liverpool vs Arsenal",
+    "embed_url": "https://frenchtv.fun/embed/uk-hub-premier-1",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/liverpool.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/arsenal.png"
+  },
+  {
+    "name": "Liverpool vs Arsenal",
+    "embed_url": "https://frenchtv.fun/embed/us-sports",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/liverpool.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/arsenal.png"
+  },
+  {
+    "name": "Liverpool vs Arsenal",
+    "embed_url": "https://frenchtv.fun/embed/uk-sky-sports-main-event-fhd",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/liverpool.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/arsenal.png"
+  },
+  {
+    "name": "Eintracht Frankfurt vs St. Pauli",
+    "embed_url": "https://frenchtv.fun/embed/de-dazn-bar-1-hd",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/eintracht-frankfurt.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/st-pauli.png"
+  },
+  {
+    "name": "Eintracht Frankfurt vs St. Pauli",
+    "embed_url": "https://frenchtv.fun/embed/sky-sport-1",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/eintracht-frankfurt.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/st-pauli.png"
+  },
+  {
+    "name": "Eintracht Frankfurt vs St. Pauli",
+    "embed_url": "https://frenchtv.fun/embed/pt-eleven-sports-3-uhd",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/eintracht-frankfurt.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/st-pauli.png"
+  },
+  {
+    "name": "Eintracht Frankfurt vs St. Pauli",
+    "embed_url": "https://frenchtv.fun/embed/pl-eleven-sports-3-hd",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/eintracht-frankfurt.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/st-pauli.png"
+  },
+  {
+    "name": "Torino vs inter milan",
+    "embed_url": "https://frenchtv.fun/embed/uk-tnt-sports-2-uhd",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/torino.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/inter-milan.png"
+  },
+  {
+    "name": "Torino vs inter milan",
+    "embed_url": "https://frenchtv.fun/embed/ar",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/torino.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/inter-milan.png"
+  },
+  {
+    "name": "Torino vs inter milan",
+    "embed_url": "https://frenchtv.fun/embed/it-sky-sport-hd",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/torino.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/inter-milan.png"
+  },
+  {
+    "name": "Torino vs inter milan",
+    "embed_url": "https://frenchtv.fun/embed/it-sky-sport-calcio-sd",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/torino.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/inter-milan.png"
+  },
+  {
+    "name": "Athletic Club vs Alavés",
+    "embed_url": "https://frenchtv.fun/embed/ar-dazn-event-1",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/athletic-club.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/alavés.png"
+  },
+  {
+    "name": "Athletic Club vs Alavés",
+    "embed_url": "https://frenchtv.fun/embed/sport-tv-1",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/athletic-club.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/alavés.png"
+  },
+  {
+    "name": "Athletic Club vs Alavés",
+    "embed_url": "https://frenchtv.fun/embed/uk-sports-fhd",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/athletic-club.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/alavés.png"
+  },
+  {
+    "name": "Athletic Club vs Alavés",
+    "embed_url": "https://frenchtv.fun/embed/sport-tv-1",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/athletic-club.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/alavés.png"
+  },
+  {
+    "name": "Stuttgart vs Augsburg",
+    "embed_url": "https://frenchtv.fun/embed/de-dazn-bar-2-hd",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/stuttgart.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/augsburg.png"
+  },
+  {
+    "name": "Stuttgart vs Augsburg",
+    "embed_url": "https://frenchtv.fun/embed/espn",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/stuttgart.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/augsburg.png"
+  },
+  {
+    "name": "Stuttgart vs Augsburg",
+    "embed_url": "https://frenchtv.fun/embed/sport-tv-1",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/stuttgart.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/augsburg.png"
+  },
+  {
+    "name": "Stuttgart vs Augsburg",
+    "embed_url": "https://frenchtv.fun/embed/pt-eleven-sports-3-uhd",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/stuttgart.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/augsburg.png"
+  },
+  {
+    "name": "Napoli vs Genoa",
+    "embed_url": "https://frenchtv.fun/embed/uk-tnt-sports-1-uhd",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/napoli.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/genoa.png"
+  },
+  {
+    "name": "Napoli vs Genoa",
+    "embed_url": "https://frenchtv.fun/embed/ar",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/napoli.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/genoa.png"
+  },
+  {
+    "name": "Napoli vs Genoa",
+    "embed_url": "https://frenchtv.fun/embed/it-dazn-channel-sd",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/napoli.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/genoa.png"
+  },
+  {
+    "name": "Napoli vs Genoa",
+    "embed_url": "https://frenchtv.fun/embed/us-sports",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/napoli.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/genoa.png"
+  },
+  {
+    "name": "Real Betis vs Osasuna",
+    "embed_url": "https://frenchtv.fun/embed/",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/real-betis.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/osasuna.png"
+  },
+  {
+    "name": "Real Betis vs Osasuna",
+    "embed_url": "https://frenchtv.fun/embed/uk-sports-fhd",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/real-betis.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/osasuna.png"
+  },
+  {
+    "name": "Real Betis vs Osasuna",
+    "embed_url": "https://frenchtv.fun/embed/sport-tv-1",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/real-betis.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/osasuna.png"
+  },
+  {
+    "name": "Real Betis vs Osasuna",
+    "embed_url": "https://frenchtv.fun/embed/sport-tv-1",
+    "team1": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/real-betis.png",
+    "team2": "https://raw.githubusercontent.com/ycodexme/daddylive/main/logos/osasuna.png"
+  }
+]
