@@ -140,11 +140,11 @@ def process_logo_item(item, used_names):
     return None, None
 
 def process_loadbalancer_json(input_file, output_file=None, limit=None, num_workers=MAX_WORKERS):
-    """Process loadbalancer.json file, replace insecure logo URLs with secure ones"""
+    """Process merged_output.json file, replace insecure logo URLs with secure ones"""
     # Create directory for logos if it doesn't exist
     ensure_dir_exists(LOGOS_DIR)
     
-    # Load the loadbalancer.json file
+    # Load the merged_output.json file
     with open(input_file, 'r', encoding='utf-8') as f:
         data = json.load(f)
     
@@ -204,7 +204,7 @@ def process_loadbalancer_json(input_file, output_file=None, limit=None, num_work
     if urls_processed % 20 != 0:
         commit_and_push_changes(f"Add remaining logos, total: {urls_processed}")
     
-    # Save updated loadbalancer.json
+    # Save updated merged_output.json
     with open(input_file, 'w', encoding='utf-8') as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
     
@@ -214,13 +214,13 @@ def process_loadbalancer_json(input_file, output_file=None, limit=None, num_work
             json.dump(url_mapping, f, indent=2, ensure_ascii=False)
     
     print(f"Processed {urls_processed} URLs successfully")
-    print(f"Updated loadbalancer.json with secure URLs")
+    print(f"Updated merged_output.json with secure URLs")
     return url_mapping
 
 def main():
     # Parse command line arguments
-    parser = argparse.ArgumentParser(description='Download logos from insecure URLs, upload to GitHub, and update loadbalancer.json')
-    parser.add_argument('--input', '-i', default='loadbalancer.json', help='Input JSON file (default: loadbalancer.json)')
+    parser = argparse.ArgumentParser(description='Download logos from insecure URLs, upload to GitHub, and update merged_output.json')
+    parser.add_argument('--input', '-i', default='merged_output.json', help='Input JSON file (default: merged_output.json)')
     parser.add_argument('--output', '-o', help='Output file to save URL mapping (original -> secure)')
     parser.add_argument('--limit', '-l', type=int, help='Limit the number of URLs to process per category')
     parser.add_argument('--threads', '-t', type=int, default=MAX_WORKERS, help=f'Number of threads to use (default: {MAX_WORKERS})')
@@ -231,7 +231,7 @@ def main():
         print(f"Error: Input file {args.input} does not exist")
         sys.exit(1)
     
-    # Process the loadbalancer.json file with the specified number of threads
+    # Process the merged_output.json file with the specified number of threads
     process_loadbalancer_json(args.input, args.output, args.limit, args.threads)
 
 if __name__ == "__main__":
